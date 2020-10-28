@@ -283,7 +283,7 @@ const InstallSection = () => {
       {scoop}
       {cargo}
       <p className="my-4 text-gray-700">
-        看{" "}
+        查看{" "}
         <a className="link" href="https://github.com/denoland/deno_install">
           deno_install
         </a>{" "}
