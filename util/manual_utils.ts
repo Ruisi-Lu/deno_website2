@@ -1,8 +1,8 @@
 /* Copyright 2020 the Deno authors. All rights reserved. MIT license. */
 
-const xBasepath = "https://deno.land/x/deno@";
-const githubBasepath = "https://raw.githubusercontent.com/denoland/deno/";
-const docpath = "https://github.com/denoland/deno/blob/";
+const xBasepath = "https://raw.githubusercontent.com/Laysi/deno-docs-tw/";
+const githubBasepath = "https://raw.githubusercontent.com/Laysi/deno-docs-tw/";
+const docpath = "https://github.com//Laysi/deno-docs-tw/blob/";
 import VERSIONS from "../versions.json";
 
 export const versions = VERSIONS.cli;
@@ -25,7 +25,7 @@ function basepath(version: string) {
 export async function getTableOfContents(
   version: string
 ): Promise<TableOfContents> {
-  const res = await fetch(`${basepath(version)}${version}/docs/toc.json`);
+  const res = await fetch(`${basepath(version)}${version}/toc.json`);
   if (res.status !== 200) {
     throw Error(
       `Got an error (${
@@ -37,9 +37,9 @@ export async function getTableOfContents(
 }
 
 export function getFileURL(version: string, path: string): string {
-  return `${basepath(version)}${version}/docs${path}.md`;
+  return `${basepath(version)}${version}${path}.md`;
 }
 
 export function getDocURL(version: string, path: string): string {
-  return `${docpath}${version}/docs${path}.md`;
+  return `${docpath}${version}${path}.md`;
 }
