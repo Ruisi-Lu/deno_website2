@@ -12,16 +12,15 @@ function TranslationsPage(): React.ReactElement {
   return (
     <>
       <Head>
-        <title>Translations | Deno</title>
+        <title>語言 | Deno</title>
       </Head>
       <CookieBanner />
       <Header />
       <div className="max-w-screen-xl mx-auto px-4 sm:px-6 md:px-8 mt-8 mb-24">
         <div className="max-w-screen-lg mx-auto">
-          <h4 className="text-4xl font-bold tracking-tight">Translations</h4>
+          <h4 className="text-4xl font-bold tracking-tight">翻譯</h4>
           <p className="mt-4 text-lg">
-            Dono docs is available in the following languages. Do you have a
-            piece to display here?{" "}
+            Dono 文件提供以下語言，你想在這裡顯示你的作品?{" "}
             <a
               href="https://github.com/denoland/deno_website2/blob/master/translations.json"
               className="link"

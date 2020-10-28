@@ -22,8 +22,7 @@ export function CookieBanner(): React.ReactElement {
                     We make use of functional cookies.
                   </span>
                   <span className="hidden md:inline">
-                    To ensure a good user experience, we make use of functional
-                    cookies.
+                    為了確保良好的用戶體驗，我們使用了Cookies的功能。
                   </span>
                 </p>
               </div>

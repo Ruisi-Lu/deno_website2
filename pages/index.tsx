@@ -45,21 +45,21 @@ for await (const req of s) {
         </div>
         <div className="max-w-screen-sm mx-auto px-4 sm:px-6 md:px-8 mt-20">
           <p className="my-4 text-gray-700">
-            Deno 是一個簡單、現代且安全的JavaScript與TypeScript執行環境，使用V8並建立在Rust語言上。
+            Deno 使用V8並內置於Rust語言上，是一個簡單、現代且安全的JavaScript與TypeScript執行環境。
           </p>
           <ol className="ml-8 list-disc text-gray-700">
             <li>
               預設安全設置，除非啟用否則無法訪問檔案、網路或運行環境
             </li>
             <li>原生支援TypeScript</li>
-            <li>單一的執行檔</li>
+            <li>單一的可執行檔</li>
             <li>
               內建實用工具，例如 依賴檢查工具 (
               <InlineCode>deno info</InlineCode>)及程式碼格式化工具 (
               <InlineCode>deno fmt</InlineCode>)
             </li>
             <li>
-              有一套審查模組的標準，確保所有模組與Deno相容:{" "}
+              擁有一套經過審查且保證與Deno相容的標準模組:{" "}
               <a href="https://deno.land/std" className="link">
                 deno.land/std
               </a>
