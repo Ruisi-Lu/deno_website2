@@ -12,7 +12,7 @@ function ArtworkPage(): React.ReactElement {
   return (
     <>
       <Head>
-        <title>Artwork | Deno</title>
+        <title>作品 | Deno</title>
       </Head>
       <CookieBanner />
       <Header />
@@ -20,7 +20,7 @@ function ArtworkPage(): React.ReactElement {
         <div className="max-w-screen-lg mx-auto">
           <h4 className="text-4xl font-bold tracking-tight">Artwork</h4>
           <p className="mt-4 text-lg">
-            Do you have a piece to display here?{" "}
+            你想在這裡展示你的作品嗎?{" "}
             <a
               href="https://github.com/denoland/deno_website2/blob/master/artwork.json"
               className="link"
