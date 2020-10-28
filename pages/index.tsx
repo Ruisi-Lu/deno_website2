@@ -26,7 +26,7 @@ for await (const req of s) {
   return (
     <>
       <Head>
-        <title>Deno - A secure runtime for JavaScript and TypeScript</title>
+        <title>Deno - 一個安全的JavaScript與TypeScript運行環境</title>
       </Head>
       <CookieBanner />
       <div className="bg-white">
@@ -37,32 +37,29 @@ for await (const req of s) {
               Deno
             </h1>
             <h2 className="mt-4 sm:mt-5 font-light text-2xl text-center leading-tight text-gray-900">
-              A <strong className="font-semibold">secure</strong> runtime for{" "}
-              <strong className="font-semibold">JavaScript</strong> and{" "}
-              <strong className="font-semibold">TypeScript</strong>.
+              一個 <strong className="font-semibold">安全的 </strong>
+              <strong className="font-semibold">JavaScript</strong> 與{" "}
+              <strong className="font-semibold">TypeScript</strong> 執行環境{" "}
             </h2>
           </div>
         </div>
         <div className="max-w-screen-sm mx-auto px-4 sm:px-6 md:px-8 mt-20">
           <p className="my-4 text-gray-700">
-            Deno is a simple, modern and secure runtime for JavaScript and
-            TypeScript that uses V8 and is built in Rust.
+            Deno 是一個簡單、現代且安全的JavaScript與TypeScript執行環境，使用V8並建立在Rust語言上。
           </p>
           <ol className="ml-8 list-disc text-gray-700">
             <li>
-              Secure by default. No file, network, or environment access, unless
-              explicitly enabled.
+              預設安全設置，除非啟用否則無法訪問檔案、網路或運行環境
             </li>
-            <li>Supports TypeScript out of the box.</li>
-            <li>Ships only a single executable file.</li>
+            <li>原生支援TypeScript</li>
+            <li>單一的執行檔</li>
             <li>
-              Has built-in utilities like a dependency inspector (
-              <InlineCode>deno info</InlineCode>) and a code formatter (
-              <InlineCode>deno fmt</InlineCode>).
+              內建實用工具，例如 依賴檢查工具 (
+              <InlineCode>deno info</InlineCode>)及程式碼格式化工具 (
+              <InlineCode>deno fmt</InlineCode>)
             </li>
             <li>
-              Has a set of reviewed (audited) standard modules that are
-              guaranteed to work with Deno:{" "}
+              有一套審查模組的標準，確保所有模組與Deno相容:{" "}
               <a href="https://deno.land/std" className="link">
                 deno.land/std
               </a>
@@ -73,7 +70,7 @@ for await (const req of s) {
           <Link href="#installation">
             <a className="hover:underline">
               <h3 className="font-bold text-xl" id="installation">
-                Installation
+                安裝 Deno
               </h3>
             </a>
           </Link>
@@ -83,16 +80,16 @@ for await (const req of s) {
           <Link href="#getting-started">
             <a className="hover:underline">
               <h3 className="font-bold text-xl" id="getting-started">
-                Getting Started
+                入門
               </h3>
             </a>
           </Link>
-          <p className="my-4 text-gray-700">Try running a simple program:</p>
+          <p className="my-4 text-gray-700">嘗試運行一個簡單的程式:</p>
           <CodeBlock
             code="deno run https://deno.land/std/examples/welcome.ts"
             language="bash"
           />
-          <p className="my-4 text-gray-700">Or a more complex one:</p>
+          <p className="my-4 text-gray-700">或是一個複雜一點的:</p>
         </div>
         <div className="max-w-screen-sm mx-auto px-4 sm:px-6 md:px-8">
           <CodeBlock
@@ -103,108 +100,97 @@ for await (const req of s) {
         </div>
         <div className="max-w-screen-sm mx-auto px-4 sm:px-6 md:px-8">
           <p className="my-4 text-gray-700">
-            You can find a more in depth introduction, examples, and environment
-            setup guides in{" "}
+            你可以在
             <Link href="/[...rest]" as="/manual">
-              <a className="link">the manual</a>
+              <a className="link">操作手冊</a>
             </Link>
-            .
+            中找到更深入的介紹、範例及環境配置。
           </p>
         </div>
         <div className="max-w-screen-sm mx-auto px-4 sm:px-6 md:px-8 mt-20">
           <Link href="#runtime-documentation">
             <a className="hover:underline">
               <h3 className="font-bold text-xl" id="runtime-documentation">
-                Runtime Documentation
+                運行文件
               </h3>
             </a>
           </Link>
           <p className="my-4 text-gray-700">
-            The basic runtime documentation for Deno can be found on{" "}
+            基本的Deno運行文件可以在{" "}
             <a href="https://doc.deno.land/builtin/stable" className="link">
               doc.deno.land
             </a>
-            .
+            找到。
           </p>
           <p className="my-4 text-gray-700">
-            Deno comes with{" "}
+            Deno 帶有一本{" "}
             <Link href="/[...rest]" as="/manual">
-              <a className="link">a manual</a>
+              <a className="link">操作手冊</a>
             </Link>{" "}
-            which contains more in depth explanations about the more complex
-            functions of the runtime, an introduction to the concepts that Deno
-            is built on, details about the internals of Deno, how to embed Deno
-            in your own application and how to extend Deno using Rust plugins.
+            其中包含更複雜的運行函數、建構Deno的基礎概念、Deno的內部結構、如何在自己的應用程式中嵌入Deno以及如何使用Rust插件擴展Deno。
           </p>
           <p className="my-4 text-gray-700">
-            The manual also contains information about the built in tools that
-            Deno provides.
+           操作手冊中還包含了有關Deno提供的內建工具的說明。
           </p>
         </div>
         <div className="max-w-screen-sm mx-auto px-4 sm:px-6 md:px-8 mt-20">
           <Link href="#standard-modules">
             <a className="hover:underline">
               <h3 className="font-bold text-xl" id="standard-modules">
-                Standard Modules
+                標準模組
               </h3>
             </a>
           </Link>
           <p className="my-4 text-gray-700">
-            Next to the Deno runtime, Deno also provides a list of audited
-            standard modules that are reviewed by the Deno maintainers and are
-            guaranteed to work with a specific Deno version. These live
-            alongside the Deno source code in the{" "}
+            Deno提供了一系列經過審查的標準模組，Deno維護人員將對這樣模組進行審查，
+            並確保他們可以用於特定版本的Deon。
+            他們與Deno源碼一起被存放在
             <a href="https://github.com/denoland/deno" className="link">
               denoland/deno
             </a>{" "}
-            repository.
+            倉庫中。
           </p>
           <p className="my-4 text-gray-700">
-            These standard modules are hosted at{" "}
+           這些標準模組託管在{" "}
             <Link href="/[...rest]" as="/std">
               <a className="link">deno.land/std</a>
             </Link>{" "}
-            and are distributed via URLs like all other ES modules that are
-            compatible with Deno.
+            中，就像其他ES模組一樣，透過URL進行分發。
           </p>
         </div>
         <div className="max-w-screen-sm mx-auto px-4 sm:px-6 md:px-8 mt-20">
           <Link href="#third-party-modules">
             <a className="hover:underline">
               <h3 className="font-bold text-xl" id="third-party-modules">
-                Third Party Modules
+                第三方模組
               </h3>
             </a>
           </Link>
           <p className="my-4 text-gray-700">
-            Deno can import modules from any location on the web, like GitHub, a
-            personal webserver, or a CDN like{" "}
+            Deno 可以從任何地方導入模組，例如Gitub、個人網頁服務器或CDN服務(
             <a href="https://www.skypack.dev" className="link">
               Skypack
             </a>{" "}
-            or{" "}
+            或{" "}
             <a href="https://jspm.io" className="link">
               jspm.io
             </a>
-            .
+            等)。
           </p>
           <p className="my-4 text-gray-700">
-            To make it easier to consume third party modules Deno provides some
-            built in tooling like <InlineCode>deno info</InlineCode> and{" "}
-            <InlineCode>deno doc</InlineCode>. deno.land also provides a web UI
-            for viewing module documentation. It is available at{" "}
+            為了更容易使用第三方模組，Deno提供了一些內建工具，例如<InlineCode>deno info</InlineCode>{" "} 和
+            <InlineCode>deno doc</InlineCode>。 deno.land提供了一個網站，用於查看模組文件。 可以在{" "}
             <a href="https://doc.deno.land" className="link">
               doc.deno.land
             </a>
-            .
+            查看。
           </p>
           <p className="my-4 text-gray-700">
-            deno.land also provides a simple public hosting service for ES
-            modules that work with Deno. It can be found at{" "}
+            deno.land 提供了一個公共的ES模組託管服務器。可以在{" "}
             <Link href="/x">
               <a className="link">deno.land/x</a>
             </Link>
-            .
+            找到。
           </p>
         </div>
         <div className="mt-20">
@@ -270,10 +256,11 @@ const InstallSection = () => {
   const cargo = (
     <div key="cargo" className="my-4 text-gray-700">
       <p className="py-2">
-        Build and install from source using{" "}
+        使用
         <a href="https://crates.io/crates/deno" className="link">
           Cargo
         </a>
+        建構並安裝Deno{" "}
       </p>
       <CodeBlock language="bash" code={`cargo install deno`} />
     </div>
@@ -282,12 +269,12 @@ const InstallSection = () => {
   return (
     <>
       <p className="my-4 text-gray-700">
-        Deno ships as a single executable with no dependencies. You can install
-        it using the installers below, or download a release binary from the{" "}
+        Deno是一個沒有依賴性的單一執行檔，你可以使用下面的方法安裝，
+        或是透過 
         <a href="https://github.com/denoland/deno/releases" className="link">
-          releases page
+          發行頁面
         </a>
-        .
+        來下載已發行的二進制檔案{" "}
       </p>
       {shell}
       {powershell}
@@ -296,11 +283,11 @@ const InstallSection = () => {
       {scoop}
       {cargo}
       <p className="my-4 text-gray-700">
-        See{" "}
+        看{" "}
         <a className="link" href="https://github.com/denoland/deno_install">
           deno_install
         </a>{" "}
-        for more installation options.
+        了解更多安裝選項
       </p>
     </>
   );

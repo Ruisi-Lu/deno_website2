@@ -15,7 +15,7 @@ function Footer(props: { simple?: boolean }): React.ReactElement {
           <div className="px-5 py-2">
             <Link href="/[...rest]" as="/manual">
               <a className="text-base leading-6 text-gray-500 hover:text-gray-900">
-                Manual
+                操作手冊
               </a>
             </Link>
           </div>
@@ -30,42 +30,42 @@ function Footer(props: { simple?: boolean }): React.ReactElement {
           <div className="px-5 py-2">
             <Link href="/[...rest]" as="/std">
               <a className="text-base leading-6 text-gray-500 hover:text-gray-900">
-                Standard Library
+                標準函式庫
               </a>
             </Link>
           </div>
           <div className="px-5 py-2">
             <Link href="/x">
               <a className="text-base leading-6 text-gray-500 hover:text-gray-900">
-                Third Party Modules
+                第三方模組
               </a>
             </Link>
           </div>
           <div className="px-5 py-2">
             <Link href="/benchmarks">
               <a className="text-base leading-6 text-gray-500 hover:text-gray-900">
-                Benchmarks
+                基準測試
               </a>
             </Link>
           </div>
           <div className="px-5 py-2">
             <Link href="/artwork">
               <a className="text-base leading-6 text-gray-500 hover:text-gray-900">
-                Artwork
+                創作藝術
               </a>
             </Link>
           </div>
           <div className="px-5 py-2">
             <Link href="/posts">
               <a className="text-base leading-6 text-gray-500 hover:text-gray-900">
-                News
+                新聞
               </a>
             </Link>
           </div>
           <div className="px-5 py-2">
             <Link href="/translations">
               <a className="text-base leading-6 text-gray-500 hover:text-gray-900">
-                Translations
+                語言
               </a>
             </Link>
           </div>

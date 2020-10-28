@@ -60,12 +60,12 @@ function Header({
         <div className="hidden lg:flex md:ml-10 items-end">
           <Link href="/" as="/#installation">
             <a className="font-medium text-gray-500 hover:text-gray-900 transition duration-150 ease-in-out">
-              Install
+              安裝
             </a>
           </Link>
           <Link href="/[...rest]" as="/manual">
             <a className="ml-10 font-medium text-gray-500 hover:text-gray-900 transition duration-150 ease-in-out">
-              Manual
+              操作手冊
             </a>
           </Link>
           <a
@@ -76,12 +76,12 @@ function Header({
           </a>
           <Link href="/[...rest]" as="/std">
             <a className="ml-10 font-medium text-gray-500 hover:text-gray-900 transition duration-150 ease-in-out">
-              Standard Library
+              標準函式庫
             </a>
           </Link>
           <Link href="/x">
             <a className="ml-10 font-medium text-gray-500 hover:text-gray-900 transition duration-150 ease-in-out">
-              Third Party Modules
+              第三方套件
             </a>
           </Link>
           <a
