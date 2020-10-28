@@ -51,7 +51,7 @@ function Footer(props: { simple?: boolean }): React.ReactElement {
           <div className="px-5 py-2">
             <Link href="/artwork">
               <a className="text-base leading-6 text-gray-500 hover:text-gray-900">
-                創作藝術
+                作品
               </a>
             </Link>
           </div>
@@ -65,7 +65,7 @@ function Footer(props: { simple?: boolean }): React.ReactElement {
           <div className="px-5 py-2">
             <Link href="/translations">
               <a className="text-base leading-6 text-gray-500 hover:text-gray-900">
-                語言
+                翻譯
               </a>
             </Link>
           </div>

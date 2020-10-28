@@ -467,7 +467,7 @@ function Manual(): React.ReactElement {
                     </svg>
                   </div>
                   <div className="pl-6">
-                    Search the docs (press <InlineCode>/</InlineCode> to focus)
+                    搜尋文件 (按下 <InlineCode>/</InlineCode> 搜尋)
                   </div>
                 </button>
               </div>
