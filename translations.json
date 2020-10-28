@@ -16,5 +16,11 @@
     "english": "Arabic",
     "link": "https://deno-ar.vercel.app/",
     "repository": "https://github.com/moncefplastin07/deno_website2"
+  },
+  {
+    "language": "繁體中文",
+    "english": "Traditional Chinese",
+    "link": "https://www.denojs.tw",
+    "repository": "https://github.com/Laysi/deno_website2"
   }
 ]
