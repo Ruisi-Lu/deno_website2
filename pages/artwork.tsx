@@ -18,7 +18,7 @@ function ArtworkPage(): React.ReactElement {
       <Header />
       <div className="max-w-screen-xl mx-auto px-4 sm:px-6 md:px-8 mt-8 mb-24">
         <div className="max-w-screen-lg mx-auto">
-          <h4 className="text-4xl font-bold tracking-tight">Artwork</h4>
+          <h4 className="text-4xl font-bold tracking-tight">作品</h4>
           <p className="mt-4 text-lg">
             你想在這裡展示你的作品嗎?{" "}
             <a

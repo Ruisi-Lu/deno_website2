@@ -407,10 +407,9 @@ function Manual(): React.ReactElement {
                       </svg>
                     </div>
                     <div className="pl-6">
-                      <span className="inline sm:hidden">Search docs</span>
+                      <span className="inline sm:hidden">搜尋文件</span>
                       <span className="hidden sm:inline">
-                        Search the docs (press <InlineCode>/</InlineCode> to
-                        focus)
+                      搜尋文件 (按下 <InlineCode>/</InlineCode> 搜尋)
                       </span>
                     </div>
                   </button>
